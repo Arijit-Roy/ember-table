@@ -17,13 +17,14 @@ export default Component.extend({
   checked: defaultTo(false),
   disabled: defaultTo(false),
   indeterminate: defaultTo(false),
-  onChange: null,
-  onClick: null,
+  onChange: () => {},
+  onClick: () => {},
   type: 'checkbox',
   value: null,
 
   click(event) {
     this.onClick?.(event);
+    event.stopImmediatePropagation();
   },
 
   change(event) {

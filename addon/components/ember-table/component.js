@@ -4,7 +4,7 @@ import { htmlSafe } from '@ember/string';
 import {
   setupTableStickyPolyfill,
   teardownTableStickyPolyfill,
-} from '../../-private/sticky/table-sticky-polyfill';
+} from '../../-private/sticky/table-sticky-polyfill'; 
 
 import layout from './template';
 import defaultTo from '../../-private/utils/default-to';

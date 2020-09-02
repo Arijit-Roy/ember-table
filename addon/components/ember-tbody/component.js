@@ -94,6 +94,7 @@ export default Component.extend({
   */
   selection: null,
 
+  selectionMatcher: null,
   /**
     A function that will override how selection is compared to row value.
 

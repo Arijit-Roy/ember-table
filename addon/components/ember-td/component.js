@@ -113,7 +113,6 @@ export default BaseTableCell.extend({
     onSelectionToggled(event) {
       let rowMeta = this.get('rowMeta');
       let checkboxSelectionMode = this.get('checkboxSelectionMode') || this.get('rowSelectionMode');
-
       if (rowMeta && checkboxSelectionMode === SELECT_MODE.MULTIPLE) {
         let toggle = true;
         let range = event.shiftKey;

@@ -68,7 +68,7 @@ export const TableRowMeta = EmberObject.extend({
     '_tree.{selection.[],selectionMatchFunction}',
     '_parentMeta.isSelected',
     function() {
-      let rowValue = get(this, '_rowValue');
+      let rowValue = get(this, '_rowValue'); 
       let selection = get(this, '_tree.selection');
       let selectionMatchFunction = get(this, '_tree.selectionMatchFunction');
 

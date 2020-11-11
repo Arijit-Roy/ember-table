@@ -375,7 +375,7 @@ export default Component.extend({
   },
 
   fillupHandler() {
-    if (this.isDestroying) {
+    if (this.isDestroying) { 
       return;
     }
 
